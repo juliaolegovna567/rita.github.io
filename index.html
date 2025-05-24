@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Соц сеть</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+<body>
+	<div class="container">
+        <header>
+        	<img src="images.jpg" class="avatar">
+        	<h1>Маргарита Смирнова</h1>
+        	<p class="status" id="status">"🐯"</p>
+        </header>
+
+        <section class="interests">
+        	<h2>Мои интересы</h2> 
+        	<div class="cards"> 
+        		<div class="card">Игры</div>
+        		<div class="card">Музыка</div>
+        		<div class="card">Ночевки</div>
+        		<div class="card">Долгие поездки</div>
+        		</div>
+
+        	</section>
+        	<section class="projects">
+        		<h2>Мои проекты</h2>
+        		<div class="projects-grid">
+
+        			<a href="https://margosha2333.github.io/Calendar.github.io/ " target="_blank" class="project-card">Сайт "Календарь"</a>
+
+        			<a href= "https://margosha2333.github.io/"FormaRegectracii.github.io/ target="_blank" class="project-card">Форма регистрации</a>
+
+
+        			<a href= "https://margosha2333.github.io/Cait23Fevrala.github.io/"/ target="_blank" class="project-card">Сайт 23 февраля</a>
+
+
+
+        			<a href= "https://margosha2333.github.io/PixelArt.github.io/"/ target="_blank" class="project-card">Пиксель арт</a>
+
+
+        			
+                     <a href= "https://margosha2333.github.io/lightAndDark.github.io/"/ target="_blank" class="project-card">Светлая и темная тема</a>
+
+        			
+
+
+
+
+
+
+
+
+        		</div>
+        		
+        	</section>
+
+  			<section class="figma-projects">
+  				<h2>Figma-проекты</h2>
+  				<div class="figma-grid">
+  					<div class="figma-card">
+  						<img src="6.png">
+  						<h3>Лендинг для мультфильма</h3>
+  						<a href="https://www.figma.com/proto/vduweEqPX5EKvayRerX6x1/Untitled?node-id=1-2&p=f&t=Ndro7Cux8faRCwTw-1&scalings" class="btn">Открыть в Figma </a>
+
+  					</div>
+  						<div class="figma-card">
+  						<img src="2.png">
+  						<h3>Обо мне</h3>
+  						<a href="https://www.figma.com/proto/Sje9j5o1RvqjYJ9lOonZfC/Untitled?node-id=1-2&p=f&t=BeuuGCw2Zn3PnL02-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank" class="btn">Открыть в Figma </a>
+
+  					</div>
+  				</div>
+	
+			</section>
+
+
+        	
+
+
+
+
+
+
+
+        	<section class="memes">
+        		<h2>Любимые мемы</h2>
+        		<div class="memes-grid">
+        			<img src="1рита.jpg" class="meme hidden">
+        			<img src="триппи.jpg" class="meme hidden">
+        			<img src="сова.jpeg" class="meme hidden">
+        			<img src="итальяно.jpg" class="meme hidden">
+        		</div>
+        	</section>
+
+
+        	<div class="modal" id="modal">
+        		
+        	
+        	<div class="modal-content">
+        		<span class="close-btn" id="closeModal">&times</span>
+        		<h3 id="modal-title">Интерес</h3>
+        		<p id="modal-description">Описание....</p>
+        		</div>
+        	</div>  
+     <script src="script.js"></script>
+     <section class="contact">
+  <button id="theme-toggle" class="theme-toggle">🌙</button>
+</section>
+
+
+	
+	</div>
+  <div class="language-switcher">
+  <button class="lang-btn active" data-lang="ru">RU</button>
+  <button class="lang-btn" data-lang="en">EN</button>
+
+
+
+  <!-- Элемент для фоновой музыки -->
+<div class="music-player">
+  <audio id="bgMusic" loop>
+    <source src="your-music-file.mp3" type="audio/mpeg">
+    Ваш браузер не поддерживает аудио элемент.
+  </audio>
+  <button id="musicToggle" class="music-btn">🎵</button>
+  <div class="volume-control">
+    <input type="range" id="volumeSlider" min="0" max="1" step="0.1" value="0.5">
+  </div>
+</div>
+</div>
+</body>
+</html>
